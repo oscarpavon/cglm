@@ -7,7 +7,7 @@ Header: cglm/frustum.h
 
 cglm provides convenient functions to extract frustum planes, corners...
 All extracted corners are **vec4** so you must create array of **vec4**
-not **vec3**. If you want to store them to save space you msut convert them
+not **vec3**. If you want to store them to save space you must convert them
 yourself.
 
 **vec4** is used to speed up functions need to corners. This is why frustum
